@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+
+  server-service:
+    build: ./server-service
+    expose:
+      - "3000"
+  
+  client-service:
+    build: ./client-service
+    ports:
+      - "3005:3000"
+
