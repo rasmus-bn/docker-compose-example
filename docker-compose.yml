@@ -9,5 +9,7 @@ services:
   client-service:
     build: ./client-service
     ports:
-      - "3005:3000"
+      - "3005:4000"
+    expose:
+      - "4000"
 
