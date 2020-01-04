@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-#useless comment
+
   server-service:
     build: ./server-service
     expose:
